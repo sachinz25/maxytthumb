@@ -1,8 +1,14 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import requests
 
 app = Flask(__name__)
 
+# Route for the homepage
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+# Route to handle thumbnail requests
 @app.route('/get-thumbnail', methods=['GET'])
 def get_thumbnail():
     video_id = request.args.get('video_id')
