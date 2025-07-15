@@ -4,5 +4,3 @@
 <p>To use the script, simply run the <code>youtube_thumbnail_viewer.py</code> file and enter a valid YouTube video URL when prompted. The script will then extract the video ID and generate the URL of the maximum resolution thumbnail image. The image will be opened in a new window in your default web browser.</p>
 <h2>Limitations</h2>
 <p>Note that the script may not work correctly for videos that have restricted access or have been removed from YouTube. Additionally, the maximum resolution thumbnail image may not always be available for a given video.</p>
-<h2>License</h2>
-<p>This script is licensed under the MIT License. See the <code>LICENSE</code> file for more information.</p>
